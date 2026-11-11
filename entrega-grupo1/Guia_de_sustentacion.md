@@ -152,7 +152,7 @@ El backend permite el origen `http://localhost:4200` mediante CORS. `http://127.
 
 ### Se modificó el trabajo de otros grupos
 
-Se desarrollaron los cuatro archivos de movimientos de inventario. La copia local también indica `lang="es"` en el HTML principal. No se modificaron las entidades, controladores, servicios Java ni componentes de los otros módulos.
+Se desarrollaron los cuatro archivos de movimientos de inventario. La copia local también indica `lang="es"` en el HTML principal y fija `spring.sql.init.encoding=UTF-8` para cargar correctamente las tildes de los datos SQL. No se modificaron las entidades, controladores, servicios Java ni componentes de los otros módulos.
 
 ### Qué significa la advertencia de tamaño en build
 

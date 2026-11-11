@@ -69,7 +69,9 @@ cd proyectoFinal
 sh ./mvnw -Dmaven.test.skip=true spring-boot:run
 ```
 
-El POM suministrado no declara las dependencias de la prueba JUnit de ejemplo. El parámetro anterior permite arrancar sin compilar esa prueba y no equivale a ejecutar pruebas Java. El código fuente del backend se conserva.
+El POM suministrado no declara las dependencias de la prueba JUnit de ejemplo. El parámetro anterior permite arrancar sin compilar esa prueba y no equivale a ejecutar pruebas Java.
+
+La lógica Java del backend se conserva. La carga de scripts SQL se fija con `spring.sql.init.encoding=UTF-8` para que los nombres y descripciones con tildes se lean correctamente incluso si Java usa Windows-1252. Se verificó un arranque nuevo con esa codificación de la JVM.
 
 ### Frontend
 

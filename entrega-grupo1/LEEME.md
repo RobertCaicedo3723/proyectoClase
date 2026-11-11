@@ -49,7 +49,7 @@ Copiar el servicio en:
 
 La base del profesor ya tiene la ruta `movimientosInventario`, `provideHttpClient()`, Bootstrap 5.3.8 y Bootstrap Icons 1.13.1 configurados. No se necesita crear otra ruta ni instalar una biblioteca adicional para este módulo.
 
-Además de los cuatro archivos, se corrigió el idioma de `src/index.html` de `en` a `es` en la copia local para que las herramientas de accesibilidad reconozcan el español. El módulo funciona con los cuatro archivos del ZIP; ese cambio de metadatos no es una dependencia funcional.
+Además de los cuatro archivos, se corrigió el idioma de `src/index.html` de `en` a `es` en la copia local para que las herramientas de accesibilidad reconozcan el español. El módulo funciona con los cuatro archivos del ZIP; ese cambio de metadatos no es una dependencia funcional. También se añadió `spring.sql.init.encoding=UTF-8` en `proyectoFinal/src/main/resources/application.properties` para conservar las tildes al cargar `data.sql` en cualquier codificación predeterminada de Java.
 
 ## Qué estudiar
 
@@ -70,7 +70,7 @@ Además de los cuatro archivos, se corrigió el idioma de `src/index.html` de `e
 - Si una petición falla, se informa el problema y se conserva el formulario para poder reintentar.
 - **El backend suministrado registra movimientos, pero no actualiza el stock de productos ni relaciona el código con una clave foránea.** El balance mostrado es entradas menos salidas del historial; no representa existencias disponibles.
 - H2 está configurado en memoria. Recargar el navegador conserva los datos mientras Spring Boot sigue activo. Reiniciar Spring Boot recrea la base y carga los datos de `data.sql`.
-- Las validaciones implementadas corresponden al frontend. El backend del profesor no se modificó; una llamada directa a la API puede omitir esas reglas.
+- Las validaciones implementadas corresponden al frontend. La lógica de validación Java del profesor no se modificó; una llamada directa a la API puede omitir esas reglas.
 
 ## Herramientas y asistencia
 

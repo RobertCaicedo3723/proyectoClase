@@ -1,0 +1,9 @@
+{
+  "resultado": "APROBADO",
+  "configuracion": "spring.sql.init.encoding=UTF-8",
+  "arranqueProbado": "Instancia aislada con JVM Cp1252, puerto 18080",
+  "recursosVerificados": 12,
+  "registrosExistentesConservados": true,
+  "pantallaClientes": "Tildes correctas en Chrome",
+  "zipSolicitado": "Sin cambios: los cuatro archivos del módulo"
+}
