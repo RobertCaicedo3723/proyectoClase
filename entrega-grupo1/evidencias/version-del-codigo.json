@@ -1,0 +1,18 @@
+{
+  "inventario-movimiento-component.ts": {
+    "lineas": 319,
+    "sha256": "ce3c12401ae4a226ccc61e44fe08bffb6f60766c9e58de2d1d533f16880bd9af"
+  },
+  "inventario-movimiento-component.html": {
+    "lineas": 570,
+    "sha256": "3f209d6b0d4ab42a6240626f2a6ea51f1275a968b1e33a409e018481546e7c55"
+  },
+  "inventario-movimiento-component.css": {
+    "lineas": 232,
+    "sha256": "12098a0674e01eac46f74e4393ede910f2cb9dc103bf7329aed60d3f14b8e0f7"
+  },
+  "inventario-movimiento-service.ts": {
+    "lineas": 40,
+    "sha256": "d1199c59536b3198042d472d7d869da100ab668fc82c76788c35d0769d71eb66"
+  }
+}

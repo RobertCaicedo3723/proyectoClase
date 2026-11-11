@@ -1,48 +1,46 @@
-HELP.md
-target/
+# Java y Maven
+**/target/
+**/build/
 .mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Angular y Node
+**/node_modules/
+**/dist/
+**/.angular/
+**/coverage/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# Editores
+**/.idea/
+**/.vscode/
 *.iml
+*.iws
 *.ipr
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.springBeans
+.sts4-cache/
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Configuración privada y datos locales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+*.mv.db
+*.trace.db
 
-### VS Code ###
-.vscode/
-# --- Java / Spring
-/target/
-/*.log
-/.idea/
-/.project
-/.classpath
-/.settings/
-
-# --- Angular (ajusta la ruta si cambia)
-proyectoFinal/web/proyecto-app-front/node_modules/
-proyectoFinal/web/proyecto-app-front/dist/
-proyectoFinal/web/pro
-/proyectoFinal/web/proyecto-app-front/node_modules
-/proyectoFinal/web/proyecto-app-front/.angular/cache
-/proyectoFinal/web/proyecto-app-front/.angular/cache
+# Archivos temporales
+*.log
+!entrega-grupo1/evidencias/compilacion.log
+*.tmp
+.DS_Store
+Thumbs.db

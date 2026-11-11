@@ -1,0 +1,13 @@
+{
+  "modulo": "Movimientos de inventario",
+  "grupo": 1,
+  "archivos_solicitados": 4,
+  "pruebas_aprobadas": 26,
+  "vistas_accesibilidad": 3,
+  "infracciones_automaticas": 0,
+  "paginas_pdf_revisadas": 10,
+  "capturas": 11,
+  "lineas_en_guia": 1161,
+  "verificacion_zip": "Cuatro entradas y contenido idéntico a la carpeta del profesor",
+  "compilacion": "Correcta; aviso de tamaño inicial de Bootstrap documentado"
+}

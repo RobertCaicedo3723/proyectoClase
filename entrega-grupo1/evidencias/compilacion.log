@@ -1,0 +1,33 @@
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+> Building...
+√ Building...
+Initial chunk files | Names                           |  Raw size | Estimated transfer size
+styles-HR6D4WJL.css | styles                          | 315.73 kB |                32.95 kB
+chunk-CDWYI4VZ.js   | -                               | 137.77 kB |                41.11 kB
+main-GPITWUAA.js    | main                            |  85.56 kB |                21.82 kB
+scripts-TTWY4XDY.js | scripts                         |  80.45 kB |                21.60 kB
+chunk-7YJHP4I4.js   | -                               |  35.91 kB |                10.60 kB
+
+                    | Initial total                   | 655.42 kB |               128.08 kB
+
+Lazy chunk files    | Names                           |  Raw size | Estimated transfer size
+chunk-HCTLEGCS.js   | -                               |  41.38 kB |                 8.61 kB
+chunk-5OLGJES5.js   | inventario-movimiento-component |  31.57 kB |                 8.40 kB
+chunk-KZTMRNAF.js   | clientes-component              |  10.22 kB |                 2.87 kB
+chunk-TRCX5FNT.js   | detalle-factura-component       | 355 bytes |               355 bytes
+chunk-NCVXHYM7.js   | orden-compra-component          | 346 bytes |               346 bytes
+chunk-VDKYFGQ7.js   | proveedor-component             | 338 bytes |               338 bytes
+chunk-CISMRBVS.js   | producto-component              | 335 bytes |               335 bytes
+chunk-YIRJPCBV.js   | permiso-component               | 332 bytes |               332 bytes
+chunk-7U4RZ5LF.js   | factura-component               | 332 bytes |               332 bytes
+chunk-CEKZ7GAT.js   | sesion-component                | 329 bytes |               329 bytes
+chunk-FNNPNXMO.js   | perfil-component                | 329 bytes |               329 bytes
+chunk-3J3TIYXC.js   | pago-component                  | 323 bytes |               323 bytes
+chunk-KYB7OLQW.js   | rol-component                   | 320 bytes |               320 bytes
+
+Application bundle generation complete. [8.930 seconds] - 2026-11-11T01:03:35.949Z
+
+▲ [WARNING] bundle initial exceeded maximum budget. Budget 500.00 kB was not met by 155.42 kB with a total of 655.42 kB.
+
+
+Output location: <RAIZ_DEL_PROYECTO>\proyectoFinal\web\proyecto-app-front\dist\proyecto-app-front

@@ -1,0 +1,111 @@
+{
+  "entorno": "Angular y Spring Boot locales del profesor",
+  "pruebas": [
+    {
+      "caso": "Carga real y resumen coinciden con la API",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Iconos de Bootstrap cargan desde recursos locales",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Buscar ignora mayúsculas y conserva el resumen global",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Combinar producto y tipo filtra correctamente",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Rango de fechas incluye ambos extremos",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Rango invertido muestra error y ningún dato engañoso",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Búsqueda vacía y limpieza de filtros recuperan el historial",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Formulario inicial usa fecha local y foco en el código",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Campos obligatorios impiden enviar POST",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Código con espacios es rechazado",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Cantidad 0 es rechazada sin petición HTTP",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Cantidad -3 es rechazada sin petición HTTP",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Cantidad 1.5 es rechazada sin petición HTTP",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Cantidad 2147483648 es rechazada sin petición HTTP",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Fecha obligatoria impide enviar datos incompletos",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Crear usa POST sin ID, normaliza el código y persiste",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Recargar conserva el registro en H2 mientras la API sigue activa",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Editar precarga campos y PUT actualiza el mismo ID",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Cancelar eliminación conserva el registro",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Eliminar confirmado usa DELETE y retira el registro",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Error al guardar conserva datos y permite volver a intentar",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Carga fallida informa el error y Reintentar recupera la lista",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Paginación de seis registros y reajuste al cambiar filtros",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Tecla Escape cierra el editor y devuelve el foco",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Vista móvil mantiene controles y tabla dentro de su región",
+      "resultado": "APROBADO"
+    },
+    {
+      "caso": "Sin errores JavaScript y sin cambios en los datos originales",
+      "resultado": "APROBADO"
+    }
+  ],
+  "erroresConsola": [],
+  "resultado": "APROBADO"
+}

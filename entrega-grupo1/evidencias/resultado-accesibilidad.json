@@ -1,0 +1,17 @@
+[
+  {
+    "vista": "Escritorio",
+    "reglasAprobadas": 25,
+    "infracciones": []
+  },
+  {
+    "vista": "Formulario de registro",
+    "reglasAprobadas": 16,
+    "infracciones": []
+  },
+  {
+    "vista": "Móvil",
+    "reglasAprobadas": 26,
+    "infracciones": []
+  }
+]

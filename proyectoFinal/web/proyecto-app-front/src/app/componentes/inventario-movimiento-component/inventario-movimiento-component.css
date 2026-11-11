@@ -1,0 +1,232 @@
+/* Bootstrap resuelve la cuadrícula, formularios, botones, alertas y tabla. */
+:host {
+  display: block;
+  min-height: 100vh;
+  background: #f4f7f7;
+  color: #253d43;
+  --brand: #12685b;
+  --bs-secondary-rgb: 85, 104, 106;
+}
+
+.inventory-page {
+  max-width: 1380px;
+}
+.inventory-page h1 {
+  font-size: clamp(1.65rem, 2.5vw, 2.3rem);
+  letter-spacing: -0.065rem;
+}
+.eyebrow {
+  color: #526a6b;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+.group-label {
+  border: 1px solid #cadbd5;
+  border-radius: 0.25rem;
+  padding: 0.2rem 0.4rem;
+}
+.btn-brand {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--brand);
+  --bs-btn-border-color: var(--brand);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0b5146;
+  --bs-btn-hover-border-color: #0b5146;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: var(--brand);
+  --bs-btn-disabled-border-color: var(--brand);
+}
+.link-brand {
+  color: var(--brand);
+}
+.btn-outline-secondary {
+  --bs-btn-color: #55686a;
+}
+.metric,
+.history-card {
+  border-color: #dfe8e6;
+  border-radius: 0.85rem;
+  box-shadow: 0 2px 3px #173b3003;
+}
+.metric .card-body {
+  padding: 1.15rem 1.3rem;
+}
+.metric-label {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: #526668;
+}
+.metric-icon {
+  color: #587975;
+  font-size: 1.1rem;
+}
+.metric-value {
+  display: block;
+  font-size: 2rem;
+  line-height: 1.6;
+  font-weight: 600;
+  letter-spacing: -0.06rem;
+}
+.metric-note {
+  font-size: 0.72rem;
+  color: #617170;
+}
+.entry {
+  color: #147951;
+}
+.exit {
+  color: #996221;
+}
+.metric-balance {
+  background: #eaf3ef;
+  border-color: #cfe1d9;
+}
+.history-card {
+  overflow: hidden;
+}
+.record-count {
+  background: #edf4f1;
+  color: #426b5e;
+  padding: 0.12rem 0.4rem;
+  border-radius: 0.3rem;
+  font-size: 0.7rem;
+  vertical-align: middle;
+}
+.form-label {
+  color: #475f61;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.form-control,
+.form-select,
+.input-group-text {
+  border-color: #d6e1dd;
+  font-size: 0.86rem;
+  min-height: 2.6rem;
+}
+.inventory-table {
+  white-space: nowrap;
+  font-size: 0.85rem;
+  --bs-table-color: #354f51;
+}
+.inventory-table th {
+  background: #f6f9f8;
+  color: #596e6c;
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.045rem;
+  padding: 0.9rem 1.4rem;
+  border-top: 1px solid #e1e9e5;
+}
+.inventory-table td {
+  padding: 1rem 1.4rem;
+  border-color: #edf1ef;
+}
+.inventory-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+.movement-id {
+  font-family: Consolas, monospace;
+  color: #607776;
+}
+.product-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  background: #f3f7f5;
+  border: 1px solid #e2ebe5;
+  border-radius: 0.4rem;
+  color: #57766a;
+}
+.movement-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.4rem;
+  background: #eaf7ef;
+  color: #1a7047;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+.badge-exit {
+  background: #fff4e5;
+  color: #925b1f;
+}
+.action-button {
+  color: #426d65;
+  padding: 0.3rem 0.5rem;
+}
+.action-button:hover {
+  background: #edf5f1;
+  color: #175a47;
+}
+.action-delete {
+  color: #a34b3a;
+}
+.action-delete:hover {
+  color: #923d30;
+  background: #fcedea;
+}
+.module-footer {
+  border-top: 1px solid #dfe7e2;
+}
+/* dialog ofrece foco de teclado y fondo inerte; Bootstrap aporta el aspecto. */
+.inventory-dialog {
+  width: min(560px, calc(100% - 2rem));
+  max-height: 92vh;
+  padding: 0;
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 24px 90px #142e3040;
+  color: #253d43;
+}
+.inventory-dialog::backdrop {
+  background: #17343270;
+  backdrop-filter: blur(3px);
+}
+.inventory-dialog .modal-header,
+.inventory-dialog .modal-footer {
+  border-color: #e4ece8;
+}
+.inventory-dialog .modal-footer {
+  background: #f8faf9;
+}
+.inventory-dialog fieldset {
+  min-width: 0;
+}
+.inventory-dialog .form-text {
+  font-size: 0.75rem;
+}
+:is(button, input, select, [tabindex]):focus-visible {
+  outline: 3px solid #439c88;
+  outline-offset: 3px;
+}
+@media (max-width: 575px) {
+  .inventory-page {
+    padding-inline: 1rem;
+  }
+  .metric .card-body {
+    padding: 1rem;
+  }
+  .metric-label {
+    font-size: 0.7rem;
+  }
+  .metric-value {
+    font-size: 1.7rem;
+  }
+  .metric-note {
+    font-size: 0.67rem;
+  }
+  .inventory-table td,
+  .inventory-table th {
+    padding-inline: 1rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .spinner-border {
+    animation: none;
+  }
+}
